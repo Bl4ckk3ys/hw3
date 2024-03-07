@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/s23380420@unn.global/Projects/Classwork/CPP/hw3/build",
+  "command": "/usr/bin/g++    -std=c++17 -g -o CMakeFiles/main.dir/main.cpp.o -c /home/s23380420@unn.global/Projects/Classwork/CPP/hw3/main.cpp",
+  "file": "/home/s23380420@unn.global/Projects/Classwork/CPP/hw3/main.cpp"
+},
+{
+  "directory": "/home/s23380420@unn.global/Projects/Classwork/CPP/hw3/build",
+  "command": "/usr/bin/g++    -std=c++17 -g -o CMakeFiles/main.dir/Fraction.cpp.o -c /home/s23380420@unn.global/Projects/Classwork/CPP/hw3/Fraction.cpp",
+  "file": "/home/s23380420@unn.global/Projects/Classwork/CPP/hw3/Fraction.cpp"
+}
+]
