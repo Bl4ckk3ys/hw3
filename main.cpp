@@ -24,7 +24,14 @@ int main(){
 
     bool res7 = fract1 != fract2;
     std::cout<< res7 << std::endl;
-
     
+    Fraction fract3 = Fraction(1,2);
+    std::cout << ++fract3 << std::endl;
+
+    Fraction fract4 = Fraction(1,2);
+    std::cout << fract4++ << std::endl;
+    
+    Fraction fract5 = Fraction(1,2);
+    std::cout << ~fract5 << std::endl;
 
 }

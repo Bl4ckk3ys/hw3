@@ -37,4 +37,28 @@ public:
     bool operator!=(const Fraction& tmp)const{
         return (tmp._num * static_cast<int32_t>(_denom)) != (_num * static_cast<int32_t>(tmp._denom));
     }
+
+    Fraction& operator++(int){ //prefix
+        _num += _denom;
+        return *this;
+    }
+    Fraction operator++(){ //postfix
+        int32_t old_num = _num;
+        _num += _denom;
+        return(Fraction(old_num,_denom));
+    }
+
+    Fraction& operator--(int){ //prefix
+        _num -= _denom;
+        return *this;
+    }
+    Fraction operator--(){ //postfix
+        int32_t old_num = _num;
+        _num -= _denom;
+        return(Fraction(old_num,_denom));
+    }
+    Fraction operator~(){
+        _num = -(_num);
+        return *this;
+    }
 };
